@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 import cardImg from "../../assets/cardImg.svg";
 import showmore from "../../assets/showmore.svg";
 import fullstars from "../../assets/fullstar.svg";
 import halfStars from "../../assets/halfStar.svg";
 import tick from "../../assets/tick.svg";
-import {cdk} from '../CardDetails';
+import { cdk } from "../CardDetails";
 import "./CardCDK.scss";
-import CdkHighlights from '../cdkHighlights/cdkHighlights';
-
+import CdkHighlights from "../cdkHighlights/cdkHighlights";
 
 const CardCDK = ({ title, desc, ratings, ratingsTitle, name, number }) => {
   return (
@@ -34,31 +33,42 @@ const CardCDK = ({ title, desc, ratings, ratingsTitle, name, number }) => {
               <h2 className="cdk-highlights-heading">Main Highlights</h2>
               <div className="cdk-highlight-content">
                 <div className="highlights-cdk">
-                  <CdkHighlights points={cdk.highlights.points[0]} feature={cdk.highlights.feature[0]}/>
-                  <CdkHighlights points={cdk.highlights.points[1]} feature={cdk.highlights.feature[1]}/>
-                  <CdkHighlights points={cdk.highlights.points[0]} feature={cdk.highlights.feature[1]}/>
+                  <CdkHighlights
+                    points={cdk.highlights.points[0]}
+                    feature={cdk.highlights.feature[0]}
+                  />
+                  <CdkHighlights
+                    points={cdk.highlights.points[1]}
+                    feature={cdk.highlights.feature[1]}
+                  />
+                  <CdkHighlights
+                    points={cdk.highlights.points[0]}
+                    feature={cdk.highlights.feature[1]}
+                  />
                 </div>
               </div>
             </div>
-            <p>Why we love it</p>
-            <p className="cdk-checkmark">
-              <span>
-                <img src={tick} alt="" />
-              </span>
-              <span>Documentation</span>
-            </p>
-            <p className="cdk-checkmark">
-              <span>
-                <img src={tick} alt="" />
-              </span>
-              <span>Easy Use</span>
-            </p>
-            <p className="cdk-checkmark">
-              <span>
-                <img src={tick} alt="" />
-              </span>
-              <span>Out Of Box</span>
-            </p>
+            <div className="ptag">
+              <p>Why we love it</p>
+              <p className="cdk-checkmark">
+                <span>
+                  <img src={tick} alt="" />
+                </span>
+                <span>Documentation</span>
+              </p>
+              <p className="cdk-checkmark">
+                <span>
+                  <img src={tick} alt="" />
+                </span>
+                <span>Easy Use</span>
+              </p>
+              <p className="cdk-checkmark">
+                <span>
+                  <img src={tick} alt="" />
+                </span>
+                <span>Out Of Box</span>
+              </p>
+            </div>
             <span className="cdk-showmore">
               Show more <img src={showmore} alt="" />
             </span>
@@ -94,7 +104,7 @@ const CardCDK = ({ title, desc, ratings, ratingsTitle, name, number }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CardCDK
+export default CardCDK;

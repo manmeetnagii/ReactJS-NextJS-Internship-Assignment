@@ -45,9 +45,14 @@
     .signup-container{
         padding: 0rem 2rem;
         flex-direction: column;
+
+        span{
+            color: #5C6874;
+            font-size: 25px;
+        }
         .signup-form{
             width: 95%;
-           margin-top: 5rem;
+           margin-top: 3rem;
         }
     }
 }
