@@ -1,0 +1,57 @@
+.navbar-container{
+    width: 100%;
+    height: 4rem;
+    background: #212731;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+
+    .search{
+        background: rgb(255, 255, 255);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        width: 16rem;
+        height: 2rem;
+
+        img{
+            width: 24px;
+            aspect-ratio: 1;
+        }
+
+        input{
+            border: none;
+            outline: none;
+        }
+    }
+
+    .navbar-links{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        a{
+            color: #D1D6DA;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 575.98px){
+    .navbar-container{
+        
+        .navbar-links{
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            display: none;
+        }
+
+    }
+}

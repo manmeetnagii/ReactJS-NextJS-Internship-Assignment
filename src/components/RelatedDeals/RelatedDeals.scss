@@ -1,0 +1,189 @@
+.relatedDeals-container{
+    
+    .relatedDeals{
+        width: 333px;
+        height: auto;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1rem;
+        border-radius: 12px;
+
+        .img{
+            margin-bottom: 3rem;
+        }
+
+        .limited-time{
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 1rem;
+           
+            width: 100%;
+
+            .perc-off {
+                width: auto;
+                height: 26px;
+                background: #F2F4F7;
+                border-radius: 4px;
+                color: #074786;
+                font-size: 13px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0.5rem 0.5rem;
+              }
+        }
+
+        h3{
+            font-size: 16px;
+            color: #626E79;
+            font-weight: 700;
+        }
+
+        .pricing{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .title{
+                p{
+                    color: #626E79;
+                    font-size: 16px;
+                }
+
+            }
+            .price-container{
+                display: flex;
+                align-items: first baseline;
+                gap: 1rem;
+                
+                .deal-price{
+                    color: #5C6874;
+                    font-size: 20px;
+
+                }
+
+                .actual-price{
+                    color: #9FA9B3;
+                    font-size: 14px;
+                }
+
+                .deal-perc{
+                    color: #EF4C5D;
+                    font-size: 13px;
+                }
+
+            }
+        }
+
+        .btn{
+            background: #1B88F4;
+            width: 292px;
+            height: 48px;
+            border-radius: 12px;
+            outline: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 575.98px){
+    .relatedDeals-container{
+    
+        .relatedDeals{
+            width: 333px;
+            height: auto;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem 1rem;
+            border-radius: 12px;
+    
+            .img{
+                margin-bottom: 3rem;
+            }
+    
+            .limited-time{
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                gap: 1rem;
+               
+                width: 100%;
+    
+                .perc-off {
+                    width: auto;
+                    height: 26px;
+                    background: #F2F4F7;
+                    border-radius: 4px;
+                    color: #074786;
+                    font-size: 13px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0.5rem 0.5rem;
+                  }
+            }
+    
+            h3{
+                font-size: 16px;
+                color: #626E79;
+                font-weight: 700;
+            }
+    
+            .pricing{
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+    
+                .title{
+                    p{
+                        color: #626E79;
+                        font-size: 16px;
+                    }
+    
+                }
+                .price-container{
+                    display: flex;
+                    align-items: first baseline;
+                    gap: 1rem;
+                    
+                    .deal-price{
+                        color: #5C6874;
+                        font-size: 20px;
+    
+                    }
+    
+                    .actual-price{
+                        color: #9FA9B3;
+                        font-size: 14px;
+                    }
+    
+                    .deal-perc{
+                        color: #EF4C5D;
+                        font-size: 13px;
+                    }
+    
+                }
+            }
+    
+            .btn{
+                background: #1B88F4;
+                width: 292px;
+                height: 48px;
+                border-radius: 12px;
+                outline: none;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    .points{
+        width: 40px;
+        height: 28px;
+        font-size: 16px;
+        color: #1B88F4;
+        border-radius: 4px;
+        background: white;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature{
+        font-size: 15px;
+        color: #4B5665;
+        font-weight: 400;
+
+    }
+}
