@@ -7,6 +7,10 @@
     justify-content: center;
     gap: 6rem;
 
+    .material-symbols-outlined{
+        display: none;
+    }
+
     .search{
         background: rgb(255, 255, 255);
         border-radius: 8px;
@@ -44,6 +48,37 @@
 
 @media (max-width: 575.98px){
     .navbar-container{
+
+        .material-symbols-outlined{
+            display: block;
+            color: rgb(221, 221, 221);
+        }
+
+        
+        .mob-menu{
+            width: 10rem;
+            height: 15rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            border-top-left-radius: 12px;
+            border-bottom-left-radius: 12px;
+            flex-direction: column;
+            background: #353b46;
+            position: absolute;
+            top: 4rem;
+            right: 0;   
+            
+            a{
+                color: #D1D6DA;
+                text-decoration: none;
+            }
+        }
+        
+        .hidden{
+            display: none;
+        }
         
         .navbar-links{
             width: 30%;
