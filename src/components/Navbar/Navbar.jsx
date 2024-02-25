@@ -19,10 +19,10 @@ const Navbar = () => {
         <a href="#">Website Builders</a>
         <a href="#">Today's deals</a>
       </div>
-      <div className={(menu? 'mob-menu' : 'hidden')}>
-        <a href="#">Categories</a>
-        <a href="#">Website Builders</a>
-        <a href="#">Today's deals</a>
+      <div className= {(menu? 'mob-menu' : 'hidden')}>
+        <a className="links"  href="#">Categories</a>
+        <a className="links"  href="#">Website Builders</a>
+        <a className="links"  href="#">Today's deals</a>
       </div>
       <span onClick={() => setMenu(!menu)} class="material-symbols-outlined">menu</span>
     </div>

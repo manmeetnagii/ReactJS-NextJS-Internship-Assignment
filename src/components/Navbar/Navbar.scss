@@ -11,6 +11,9 @@
         display: none;
     }
 
+   .links{
+    display: none;
+   }
     .search{
         background: rgb(255, 255, 255);
         border-radius: 8px;
@@ -48,10 +51,18 @@
 
 @media (max-width: 575.98px){
     .navbar-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2rem;
 
         .material-symbols-outlined{
             display: block;
             color: rgb(221, 221, 221);
+        }
+
+        .links{
+            display: block;
         }
 
         
